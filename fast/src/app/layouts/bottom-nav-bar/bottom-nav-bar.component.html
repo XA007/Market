@@ -1,0 +1,9 @@
+<div class="bottom-nav-bar">
+  <div class="bottom-navBar-container">
+    <app-button class="element"
+                *ngFor="let element of links"
+                routerLink="{{element.link}}"
+                [buttonName]="element.name"></app-button>
+    <div class="element">{{COPYRIGHT}}</div>
+  </div>
+</div>

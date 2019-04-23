@@ -1,0 +1,34 @@
+.link-container-first {
+  display: inline-block;
+  border-radius: 25px;
+  border: 1px solid #fc5c65;
+  color: #fc5c65;
+  font-weight: bold;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.link-container-first:hover{
+  box-shadow: 1px 3px 11px rgba(0, 0, 0, 0.5);
+  background-color: #fc5c65;
+}
+
+.link-container-first:hover .link {
+  color: white;
+}
+
+.link-container-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color : #fc5c65;
+  font-size: 18px;
+
+}

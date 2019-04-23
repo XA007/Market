@@ -1,0 +1,22 @@
+<div class="nav">
+  <div class="brandSide">
+    <a class="merikat" routerLink="/home">
+      <span id="Merikat"> Merikat </span>
+    </a>
+    <div class="search">
+      <label>
+        <input placeholder="Search...">
+      </label>
+    </div>
+  </div>
+  <div class="actions">
+    <app-button [buttonName]="buttonNames[2]" (click)="close()"></app-button>
+    <app-button [buttonName]="buttonNames[1]" (click)="add()"></app-button>
+    <app-button [buttonName]="buttonNames[0]" (click)="cart()"></app-button>
+    <app-user [imgUrl]="'../../../assets/anwar.jpg'"></app-user>
+  </div>
+</div>
+
+<app-add *ngIf="showAddForm"></app-add>
+
+<app-add *ngIf="showCart"></app-add>

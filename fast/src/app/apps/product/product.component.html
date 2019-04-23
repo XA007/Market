@@ -1,0 +1,15 @@
+<div class="p-container">
+  <div class="product" *ngIf="product">
+   <div class="media">
+     <img class="img" src="{{product.imageUrl}}">
+   </div>
+   <div class="product-data">
+     <div class="product-name">{{product.name}}<div class="seller">{{product.seller}}</div></div>
+     <div class="price">{{product.price}} <span class="currency">{{product.currency}}</span></div>
+   </div>
+    <div class="description">
+      Shell Helix Ultra is a range of top-tier motor oil that is formulated using the unique Shell PurePlus Technology,
+      yielding a motor oil that actively helps keep engines clean.  Active Cleansing Technology has always been at the heart of Shell Helix.
+    </div>
+  </div>
+</div>

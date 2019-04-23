@@ -1,0 +1,12 @@
+<div class="user-container">
+  <div class="user-picture"
+       *ngIf="!showMenu"
+       [style.backgroundImage]="'url('+ imgUrl +')'"
+       (click)="toggleMenu()"></div>
+  <div class="user-picture"
+       *ngIf="showMenu"
+       (click)="toggleMenu()"><i class="fas fa-minus"></i> </div>
+  <div class="actions-menu" *ngIf="showMenu">
+    <div class="action" *ngFor="let action of links" routerLink="{{action.link}}"> {{action.name}}</div>
+  </div>
+</div>

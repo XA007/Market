@@ -1,0 +1,94 @@
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+
+.brandSide {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.merikat{
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  padding: 5px 25px;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  letter-spacing: 0.07em;
+  height: 27px;
+}
+
+.btn-actions {
+  background-color: white;
+  color: #333;
+  border-radius: 25px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.add-btn {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+app-add {
+  transition: 1s;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.search{
+  width: 100%;
+  margin: 0 20px;
+  display: block;
+}
+
+input{
+  background-color: #f1f3f4;
+  padding: 15px 20px;
+  border-radius: 11px;
+  border: 1px solid #eee;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  transition: 0.25s;
+}
+
+input:focus {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  box-shadow: 1px 3px 11px 2px #eee;
+  background-color: white;
+}

@@ -1,0 +1,59 @@
+.user-picture {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background-color: #08c;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-minus {
+  color: white;
+}
+
+.user-picture:hover {
+  cursor: pointer;
+}
+
+.user-container {
+  margin: 0 10px;
+}
+
+.user-container:hover .actions-menu {
+  display: block;
+}
+
+.actions-menu {
+  display: block;
+  width: 260px;
+  position: absolute;
+  right: 40px;
+  background-color: white;
+  box-shadow: 5px 5px 11px 5px rgba(0, 0, 0, 0.21);
+  border-radius: 25px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.action {
+  font-family: 'Noto Sans', sans-serif;
+  padding: 20px 30px;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+  font-size: 14px;
+  transition: 0.25s;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+.action:hover {
+  color: black;
+  background-color: #eee;
+}

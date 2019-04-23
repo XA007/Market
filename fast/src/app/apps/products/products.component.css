@@ -1,0 +1,13 @@
+.product-container {
+  display: flex;
+  justify-content: center;
+}
+
+.products-list {
+  width: 888px;
+}
+
+app-item {
+  display: inline-block;
+  margin: 25px;
+}

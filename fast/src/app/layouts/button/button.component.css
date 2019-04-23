@@ -1,0 +1,19 @@
+.btn {
+  padding: 5px 15px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #08c;
+  margin: 0 10px;
+  color: #08c;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.027em;
+  transition: 0.5s;
+  cursor: pointer;
+  display: block;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #08c;
+}
