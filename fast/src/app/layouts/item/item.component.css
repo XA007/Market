@@ -1,11 +1,10 @@
 .product {
   border-radius: 30px;
   overflow: hidden;
-  width: 213px;
+  width: 209px;
   display: block;
   transition: 0.1s;
-  /*background-color: #f2f3f4;*/
-  border: 3px solid transparent;
+  border: 5px solid transparent;
   outline: none;
 }
 
@@ -16,7 +15,7 @@
 }
 
 .media {
-  height: 213px;
+  height: 209px;
   width: 100%;
   border-radius: 25px;
   overflow: hidden;

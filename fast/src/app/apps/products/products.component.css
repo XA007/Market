@@ -1,6 +1,8 @@
 .product-container {
   display: flex;
   justify-content: center;
+  width: 1036px;
+  margin: auto;
 }
 
 .products-list {
@@ -9,5 +11,16 @@
 
 app-item {
   display: inline-block;
-  margin: 25px;
+  margin: 20px;
+}
+
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  background-color: white;
 }

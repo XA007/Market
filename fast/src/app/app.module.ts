@@ -14,6 +14,7 @@ import { ButtonComponent } from './layouts/button/button.component';
 import { PageTitleComponent } from './layouts/page-title/page-title.component';
 import { BottomNavBarComponent } from './layouts/bottom-nav-bar/bottom-nav-bar.component';
 import { UserComponent } from './layouts/user/user.component';
+import { SpinnerComponent } from './layouts/spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { UserComponent } from './layouts/user/user.component';
     PageTitleComponent,
     BottomNavBarComponent,
     UserComponent,
+    SpinnerComponent,
   ],
   imports: [
     BrowserModule,

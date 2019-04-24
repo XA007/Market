@@ -30,12 +30,6 @@ export class NavBarComponent implements OnInit {
     this.buttonNames[CLOSE_BTN_INDEX] = ButtonNames.close;
   }
 
-  public add(): void {
-    this.showAddForm = !this.showAddForm;
-    this.buttonNames[ADD_BTN_INDEX] = this.showAddForm ? ButtonNames.hide : ButtonNames.addProduct;
-    this.buttonNames[CLOSE_BTN_INDEX] = ButtonNames.close;
-  }
-
   public close(): void {
     if (this.showCart) { this.showCart = !this.showCart; this.buttonNames[CART_BTN_INDEX] = ButtonNames.cart; }
     if (this.showAddForm) { this.showAddForm = !this.showAddForm; this.buttonNames[ADD_BTN_INDEX] = ButtonNames.addProduct; }
