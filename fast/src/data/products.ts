@@ -9,6 +9,7 @@ export class DATA {
   public readonly URL: string[] = [
     'https://www.maxcars.ch/data/web/maxcars.ch/uploads//logo/_thumb/500x500/essence_shell_logo.png',
     'https://www.tennantco.com/services/product/image.tennant-ca.371972.image',
+    'https://wallpapercave.com/wp/wp1916028.png',
   ];
   public readonly PRODUCTS: Product[] = [
     {
@@ -30,7 +31,7 @@ export class DATA {
       seller: 'Shell',
       price: '150',
       currency: 'MAD',
-      imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/513YjGNitiL._SY355_.jpg',
+      imageUrl: this.URL[2],
     },
     {
       name: 'Helix 20D',
