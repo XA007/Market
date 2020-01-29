@@ -1,2 +1,2 @@
 # Merikat
-# You're Wearehouse digitalTwin (In construction)
+You're Wearehouse digitalTwin (In construction)
